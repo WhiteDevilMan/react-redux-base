@@ -10,13 +10,14 @@
   display: flex;
   padding: 20px;
   border: 1px solid #EDEEED;
-  box-shadow: 0 0 0 5px rgba(0,0,0,0.03);
+  box-shadow: 0 0 7px 5px rgba(0,0,0,0.3);
   flex-basis: calc(33.333% - 40px);
   flex-grow: 1;
   flex-shrink: 0;
   margin: 0 20px 20px 20px;
   background: white;
   position: relative;
+  border-radius: 5px;
 }
 .card-image {
   display: flex;
@@ -31,6 +32,8 @@
 .card-image img {
   width: 100%;
   margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 9px black;
 }
 .card-comments {
   flex: 1 0 40%;
@@ -57,7 +60,7 @@
   margin: 0 5px;
 }
 button {
-  border: 2px solid #f2f2f2;
+  border: 2px solid #c4c4c4;
   background: none;
   flex-basis: 48%;
   display: inline-block;
@@ -69,6 +72,7 @@ button {
   color: #125688;
   transition: all 0.2s;
   box-sizing: padding-box;
+  border-radius: 5px;
 }
 button hover {
   border-color: #125688;
