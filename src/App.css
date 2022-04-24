@@ -32,8 +32,19 @@
 .card-image img {
   width: 100%;
   margin: 0;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   box-shadow: 0 0 9px black;
+}
+.card-title {
+  box-shadow: 0 0 9px black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card-title-input {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
 }
 .card-comments {
   flex: 1 0 40%;
