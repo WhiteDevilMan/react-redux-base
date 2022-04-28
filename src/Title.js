@@ -20,7 +20,6 @@ const Title = (props) => {
     <div className='card-title'>
       <div className='card-title-top'>
         <input
-          style={{cursor: 'url(input_cursor.cur),auto'}}
           className='card-title-input'
           type='text'
           onChange={handleChange}/>
