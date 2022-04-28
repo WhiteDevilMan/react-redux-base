@@ -8,7 +8,6 @@ import './App.css';
 
 function App() {
   const error = useSelector(state => state.appReducer.error);
-  console.log('error > ', error);
 
   return (
     <div className="App">
